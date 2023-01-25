@@ -10,7 +10,7 @@ from googleapiclient.http import MediaIoBaseDownload
 
 # To connect to googel drive api
 # If modifying these scopes, delete the file token.pickle
-CLIENT_SECRET_FILE = "client_id.json"
+CLIENT_SECRET_FILE = "~/client_id.json"
 API_NAME = "drive"
 API_VERSION = "v3"
 SCOPES = ["https://www.googleapis.com/auth/drive"]
